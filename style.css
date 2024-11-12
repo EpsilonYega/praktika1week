@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 76px;
+    background: #1F2229;
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+.logo {
+    margin-top: 21.5px;
+    margin-left: 30px;
+    width: 88px;
+    height: 33px;
+}
+.locationIcon {
+    width: 18px;
+    height: 25px;
+    margin-top: 25.5px;
+    margin-left: 1500px;
+}
+
+.city {
+    color: #fff;
+    font-family: 'Tele2 TextSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    height: 30px;
+    margin-top: 23px;
+    margin-left: 15px;
+}
+
+main {
+    background: #1F2229;
+}
+
+.mainInfo {
+    display: flex;
+}
+
+.mi-left {
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+.mi-p-1 {
+    width: 340px;
+    margin-top: 20px;
+    font-family: 'Tele2 TextSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.h1-box {
+    margin-top: 40px;
+}
+
+.mi-h1-1-blu {
+    color: #6acff7;
+}
+
+.mi-h1-1-wh {
+    color: #FFFFFF;
+}
+
+.mi-h1-1-blu, .mi-h1-1-wh {
+    width: 477px;
+    left: 162px;
+    top: 237px;
+    font-family: 'Standard CT Stencil';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.mi-btn-1 {
+    margin-top: 50px;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.mi-img {
+    width: 584px;
+    height: 551px;
+    left: 694px;
+    top: 132px;
+}
+
+.newFeatures {
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.nf-h2-1 {
+    font-family: 'Tele2 DisplaySerif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.nf-p-1 {
+    margin-top: 20px;
+    font-family: 'Tele2 TextSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 630px;
+}
+
+.nf-pics {
+    margin-top: 80px;
+    display: flex;
+}
+
+.nf-pic {
+    display: flex;    
+}
+
+.nf-icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.nf-p-2 {
+    margin-top: 33px;
+    font-family: 'Tele2 TextSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.howTo {
+    display: flex;
+    margin-left: 350px;
+    margin-top: 150px;
+}
+
+.ht-h2-1-blu {
+    color: #6acff7;
+}
+
+.ht-h2-1-wh {
+    color: #FFFFFF;
+}
+
+.ht-h2-1-blu, .ht-h2-1-wh {
+    font-family: 'Tele2 DisplaySerif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+}
+
+.ht-p-1 {
+    margin-top: 70px;
+    color: grey;
+}
+
+.ht-tel {
+    margin-top: 5px;
+}
+
+.checkbox {
+    margin-top: 20px;
+    display: flex;
+}
+
+.ht-p-2 {
+    color: #fff;
+}
+
+.text-field__label {
+    display: block;
+    margin-bottom: 0.25rem;
+}
+.text-field__input {
+    display: block;
+    width: 350px;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #1F2229;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.text-field__input[type="search"]::-webkit-search-decoration,
+    .text-field__input[type="search"]::-webkit-search-cancel-button,
+    .text-field__input[type="search"]::-webkit-search-results-button,
+    .text-field__input[type="search"]::-webkit-search-results-decoration {
+      -webkit-appearance: none;
+}
+.text-field__input::placeholder {
+    color: #212529;
+    opacity: 0.4;
+  }
+
+  .text-field__input:focus {
+    color: #212529;
+    background-color: #1F2229;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  }
+
+  .text-field__input:disabled,
+  .text-field__input[readonly] {
+    background-color: #1F2229;
+    opacity: 1;
+  }
+
+  .text-field_floating-3 {
+    position: relative;
+  }
+
+  .text-field_floating-3 .text-field__input {
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    border-radius: 0;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    height: calc(3.5rem + 2px);
+    line-height: 1.25;
+    padding: 1rem 0.75rem;
+    background-color: #1F2229;
+  }
+
+  .text-field_floating-3 .text-field__input:focus {
+    outline: 0;
+    border-bottom: 1px solid #03a9f4;
+    box-shadow: none;
+    background-color: #1F2229;
+    color: #fff;
+  }
+
+  .text-field_floating-3 .text-field__label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 1rem .75rem;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: color .15s ease-in-out, transform .15s ease-in-out;
+  }
+
+  .text-field_floating-3 .text-field__input::-moz-placeholder {
+    color: transparent;
+  }
+
+  .text-field_floating-3 .text-field__input::placeholder {
+    color: transparent;
+  }
+
+  .text-field_floating-3 .text-field__input:focus,
+  .text-field_floating-3 .text-field__input:not(:placeholder-shown) {
+    padding-top: 1.625rem;
+    padding-bottom: .625rem;
+    border-bottom: 1px solid #fff;
+  }
+
+  .text-field_floating-3 .text-field__input:focus~.text-field__label,
+  .text-field_floating-3 .text-field__input:not(:placeholder-shown)~.text-field__label {
+    transform: scale(.85) translateY(-.75rem) translateX(.15rem);
+    color: #fff;
+  }
+
+.checkbox {
+    width: 350px;
+}
+
+.check-box {
+    width: 35px;
+    height: 35px;
+}
+
+.ht-p-2 {
+    margin-left: 10px;
+    font-family: 'Tele2 TextSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.ht-right {
+    margin-left: 200px;
+}
+
+.ht-nums {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.ht-num {
+    width: 100px;
+    height: 100px;
+}
+
+.ht-p-3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Tele2 TextSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.howTo2 {
+    display: flex;
+    margin-left: 350px;
+    margin-top: 150px;
+}
+
+.ht2-p {
+    margin-top: 20px;
+    font-family: 'Tele2 TextSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 630px;
+}
+
+.ht2-h2 {
+    color: #fff;
+    font-family: 'Tele2 DisplaySerif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+}
+
+.ht2-right {
+    margin-left: 200px;
+}
+
+.ht2-img {
+    width: 350px;
+    height: 350px;
+}
+
+footer {
+    background: #1F2229;
+}
